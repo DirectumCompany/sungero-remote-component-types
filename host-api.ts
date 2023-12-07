@@ -15,6 +15,7 @@ export interface IModuleLicense {
   version: string;
 }
 
+/** Аргументы логирования. */
 type LoggerArgs = Array<Object | string>;
 
 /** Логгер. */
