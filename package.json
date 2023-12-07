@@ -1,0 +1,8 @@
+{
+  "name": "@sungero/remote-component-types",
+  "version": "1.0.0",
+  "author": "Directum",
+  "license": "MIT",
+  "main": "index.js",
+  "types": "index.ts"
+}
