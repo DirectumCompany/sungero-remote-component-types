@@ -7,6 +7,10 @@ export namespace V1 {
      * Событие обновления контрола.
      */
     onControlUpdate?: ControlUpdateHandler;
+    /**
+     * Получить настройки компонента, указанные в конфиге сервера.
+     */
+    getComponentSettings(): Promise<Record<string, string>>;
   }
 
   /** Контекст для стороннего контрола. */
