@@ -10,7 +10,7 @@ export namespace V1 {
     /**
      * Получить настройки компонента, указанные в конфиге сервера.
      */
-    getComponentSettings(): Promise<Record<string, string>>;
+    getSettings(): Promise<Record<string, string>>;
   }
 
   /** Контекст для стороннего контрола. */
