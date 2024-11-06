@@ -8,7 +8,7 @@ export namespace V1 {
      */
     onControlUpdate?: ControlUpdateHandler;
     /**
-     * Получить настройки компонента, указанные в конфиге сервера.
+     * Получить настройки стороннего компонента.
      */
     getSettings(): Promise<Record<string, string>>;
   }
