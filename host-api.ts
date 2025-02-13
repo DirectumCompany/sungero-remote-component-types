@@ -90,6 +90,8 @@ export interface IEntityNavigationPropertyInfo extends IEntityPropertyInfo {
 
 /** Информация о сущности. */
 export interface IEntityInfo {
+  /** Идентификатор типа. */
+  typeId: Guid;
   /** Информация о свойствах сущности. */
   properties: Array<IEntityPropertyInfo>;
 }
